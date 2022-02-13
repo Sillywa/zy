@@ -77,6 +77,10 @@
       -webkit-animation:mymove 1s infinite; /* Safari 和 Chrome */
       z-index: 11111;
     }
+    #btn {
+      animation:mymove 1s infinite;
+      -webkit-animation:mymove 1s infinite; /* Safari 和 Chrome */
+    }
     @keyframes mymove {
       from {
         transform: scale(1);

@@ -5,7 +5,6 @@ var options = {
   typeSpeed: 200,   //打印速度
   startDelay: 300, //开始之前的延迟300毫
   onComplete: (self) => {
-    console.log(9999);
     $(".container").css("z-index",111);
     $(".container").append('<div class="glass"></div><div class="glow"></div><div class="rose-leaves"><div></div><div></div></div><div class="rose-petals"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="sparkles"><div></div><div></div> <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>')
     $(".rosebk").css("background","rgba(18, 33, 57, 0.86)");
@@ -107,7 +106,7 @@ function createtime() {
     document.getElementById("times").innerHTML = "和宝贝在一起的第 " + dnum+" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 }
 setInterval("createtime()",250);
-var flag = 1
+var flag = 0
 document.getElementById("btn").addEventListener("click",function() {
   if(!flag) {
     document.getElementById("music").play();
