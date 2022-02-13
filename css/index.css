@@ -4,7 +4,7 @@
       padding: 0;
     }
     body {
-      font-family:cursive, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+      font-family:"Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
       overflow: hidden;
     }
     #content {
@@ -21,7 +21,7 @@
     }
     .word,.bk {
       position: absolute;
-      top: 40px;
+      top: 20px;
       left: 20px;
       right: 20px;
       bottom: 40px;
@@ -63,7 +63,6 @@
     }
     #novoice {
       top: 15px;
-      display: none;
       background: #CB262E;
       position: absolute;
       right: 30px;
@@ -100,10 +99,11 @@
     }
     #times {
       position: absolute;
-      bottom: 20px;
-      font-size: 12px;
+      bottom: -25px;
+      font-size: 14px;
       z-index: 11111111;
       font-weight: bold;
+      left: 0;
     }
     #music {
       display: none;
